@@ -5,7 +5,7 @@
   "author": "Gui",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ./index.js localhost 3001"
+    "start": "node index"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
