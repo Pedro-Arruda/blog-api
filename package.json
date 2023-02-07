@@ -4,10 +4,6 @@
   "main": "index.js",
   "author": "Gui",
   "license": "MIT",
-  "engines": {
-    "node": "16.13.0",
-    "npm": "1.22.17"
-  },
   "scripts": {
     "start": "node index"
   },
