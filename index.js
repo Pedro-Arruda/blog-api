@@ -34,7 +34,7 @@ mongoose
     `mongodb+srv://${DB_USER}:${DB_PASSWORD}@blog.sb3ugzr.mongodb.net/?retryWrites=true&w=majority`
   )
   .then(() => {
-    console.log("Conectou ao MongoDB!");
-    app.listen(process.env.PORT || 3001);
+    console.log(`Server running on port ${process.env.PORT}`);
+    app.listen(process.env.PORT);
   })
   .catch((err) => console.log(err));
